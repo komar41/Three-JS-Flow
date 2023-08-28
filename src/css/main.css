@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Legend Font Style */
+body {
+	font: 11px sans-serif;
+	background-color: #ffffff;
+}
+
+#description{
+  position: relative;
+    font-size: 35px;
+    text-decoration: none;
+    color: #000000;
+    /* margin-left: 20%; */
+    text-align: center;
+}
+
+.grid-container{
+  position: relative;
+}
+
+.scene{
+  position: absolute;
+  top: 1em;
+  left: 15em;
+  width: 1000px;
+  height: 900px;
+  border: 2px solid rgb(109, 10, 10);
+  border-radius: 50px;
+}
+
+#my_dataviz{
+  position:absolute;
+  top: 15em;
+  left: 110em;
+  display:inline-block;
+  border: 0.5px dashed rgba(0, 0, 0, 0);
+  /* height: 200px;
+  width:400px; */
+  border: 2px solid rgb(109, 10, 10);
+  border-radius: 25px;
+  background-color: #53535a;
+  /* position: absolute; */
+  /* top:20%;
+  right: 20%; */
+}
+
+.slidecontainer {
+    position: absolute;
+    left: 12em;
+    top: 78em;
+     /* Width of the outside container */
+  }
+  
+  /* The slider itself */
+  .slider {
+    appearance: none;
+    width: 950px;
+    height: 4px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    opacity: 0.7;
+  }
+  
+  .slider:hover {
+    opacity: 1; 
+  }
+  
+  .slider::-webkit-slider-thumb {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #a70808;
+  }
+  
+
+
+  .button {
+    position: absolute;
+    top: 50em;
+    left: 29em;
+    background-color: #53535a;
+    color: #fff;
+    border:none; 
+    text-align: center;
+    border-radius:10px; 
+    padding:15px;
+    min-height:30px; 
+    min-width: 120px;
+    font-size: 18px;
+  }
+
+  .header-instruction{
+    position: absolute;
+    top: 36em;
+    left: 11em;
+    font-size: 20px;
+  }
+  .instruction{
+    position: absolute;
+    top: 49em;
+    left: 12em;
+    font-size: 15px;
+    text-decoration: none;
+    color: #000000;
+    /* margin-left: 20%; */
+    /* text-align: center; */
+}
