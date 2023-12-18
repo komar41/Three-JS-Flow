@@ -64,7 +64,7 @@ const createParticleSystem = (sVal, rem = false, colorAll = false) => {
 
     const particleMaterial = new THREE.PointsMaterial( { 
         vertexColors: true,
-        size: 0.07, 
+        size: 0.1, 
         opacity: 0.9, 
         transparent: true 
     } );
@@ -112,14 +112,14 @@ const loadData = (file) => {
         // create the particle system
         colorScale = d3.scaleSequential()
             .domain([bounds.minC, bounds.maxC])
-            .interpolator(d3.interpolateReds);
+            .interpolator(d3.interpolateRgb("#9ecae1", "#08306b"));
 
         particleGeometry = new THREE.BufferGeometry;
         posArray = new Float32Array(data.length*3);
         colors = new Float32Array(data.length*3);
 
         const geometry = new THREE.PlaneGeometry( 12, 12 , 7, 7);
-        const material = new THREE.MeshBasicMaterial( {color: 0xffffff, side: THREE.DoubleSide, opacity: 0.3, transparent: true, wireframe: true} );
+        const material = new THREE.MeshBasicMaterial( {color: 0x000000, side: THREE.DoubleSide, opacity: 0.5, transparent: true, wireframe: true} );
         plane = new THREE.Mesh( geometry, material );
         // plane.rotation.x = Math.PI / 2;
         // plane.translateZ(0)

@@ -14,8 +14,8 @@ scene.add(light);
 
 // Sizes
 const sizes = {
-    width: 900,
-    height: 700
+    width: 700,
+    height: 500
 };
 
 
@@ -46,7 +46,7 @@ const renderer = new THREE.WebGLRenderer({
 });
 renderer.setSize(sizes.width, sizes.height);
 // sets up the background color
-renderer.setClearColor(0x53535a);
+renderer.setClearColor(0xeeeeee); //0xc3c3c3
 renderer.setPixelRatio(Math.min(window.devicePixelRatio, 5));
 
 const controls = new THREE.OrbitControls(camera, renderer.domElement)

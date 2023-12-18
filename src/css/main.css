@@ -26,24 +26,24 @@ body {
 .scene{
   position: absolute;
   top: 1em;
-  left: 15em;
-  width: 1000px;
-  height: 900px;
-  border: 2px solid rgb(109, 10, 10);
-  border-radius: 50px;
+  left: 20em;
+  width: 700px;
+  height: 500px;
+  /* border: 1px solid rgb(77, 77, 77); */
+  border-radius: 25px;
 }
 
 #my_dataviz{
   position:absolute;
-  top: 15em;
-  left: 110em;
+  top: 5em;
+  left: 90em;
   display:inline-block;
   border: 0.5px dashed rgba(0, 0, 0, 0);
   /* height: 200px;
   width:400px; */
-  border: 2px solid rgb(109, 10, 10);
-  border-radius: 25px;
-  background-color: #53535a;
+  /* border: 1px solid rgb(77, 77, 77); */
+  border-radius: 12.5px;
+  background-color: #eeeeee;
   /* position: absolute; */
   /* top:20%;
   right: 20%; */
@@ -51,8 +51,8 @@ body {
 
 .slidecontainer {
     position: absolute;
-    left: 12em;
-    top: 78em;
+    left: 32em;
+    top: 60em;
      /* Width of the outside container */
   }
   
@@ -73,16 +73,16 @@ body {
     appearance: none;
     width: 20px;
     height: 20px;
-    background: #a70808;
+    background: #2171b5;
   }
   
 
 
   .button {
     position: absolute;
-    top: 50em;
-    left: 29em;
-    background-color: #53535a;
+    top: 38em;
+    left: 42em;
+    background-color: #2171b5;
     color: #fff;
     border:none; 
     text-align: center;
@@ -95,14 +95,14 @@ body {
 
   .header-instruction{
     position: absolute;
-    top: 36em;
-    left: 11em;
+    top: 26em;
+    left: 31em;
     font-size: 20px;
   }
   .instruction{
     position: absolute;
-    top: 49em;
-    left: 12em;
+    top: 36em;
+    left: 38.8em;
     font-size: 15px;
     text-decoration: none;
     color: #000000;
