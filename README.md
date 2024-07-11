@@ -4,8 +4,8 @@ This project aims to visualize and analyze computational fluid flow simulation d
 
 ![image](imgs/flow-final.png)
 
-- __Access this project:__ https://komar41.github.io/Three-JS-Flow/
-- __GitHub repo:__ https://github.com/komar41/Three-JS-Flow
+- __Access this project:__ https://komar41.github.io/three-js-flow/
+- __GitHub repo:__ https://github.com/komar41/three-js-flow
 - __Tools used:__ - Three.js, D3.js, JavaScript, HTML, CSS
 
 ## Project Objectives
