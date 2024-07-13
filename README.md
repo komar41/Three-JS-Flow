@@ -30,14 +30,6 @@ This project aims to visualize and analyze computational fluid flow simulation d
 - Add a vertical XY rectangle filter in the 3D view to link with the 2D slice within the 3D flow
 - Allow user to move the rectangle through the flow along the Z axis
 
-### 4. Linked Views
-- Link the 3D view and 2D view through the rectangle filter
-- Show only the 3D points inside the rectangle in the 2D view
-
-### 5. Brushing and Linking
-- Implement brushing and linking
-- Gray out all 3D points outside the rectangle cut-plane
-
 ## Interaction Features
 - Rotate the cylinder containing the flow
 - Move the cut-plane filter along the Z axis
